@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "BXoT6nVXPvs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Shubam\\source\\repos\\Lab2_DbContext\\Lab2_DbContext\\Lab2_DbContext.csproj",
+=======
+  "dgSpecHash": "u1dn0eHAstk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shubam\\Desktop\\RetailInventory\\RetailInventory\\RetailInventory.csproj",
+>>>>>>> 237a21da9881cd0bdcf609dff39dedce277563cc
   "expectedPackageFiles": [
     "C:\\Users\\Shubam\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Shubam\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -25,7 +31,10 @@
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.6\\microsoft.entityframeworkcore.design.9.0.6.nupkg.sha512",
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.6\\microsoft.entityframeworkcore.relational.9.0.6.nupkg.sha512",
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.6\\microsoft.entityframeworkcore.sqlserver.9.0.6.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.6\\microsoft.entityframeworkcore.tools.9.0.6.nupkg.sha512",
+=======
+>>>>>>> 237a21da9881cd0bdcf609dff39dedce277563cc
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.6\\microsoft.extensions.caching.abstractions.9.0.6.nupkg.sha512",
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.6\\microsoft.extensions.caching.memory.9.0.6.nupkg.sha512",
     "C:\\Users\\Shubam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.6\\microsoft.extensions.configuration.abstractions.9.0.6.nupkg.sha512",

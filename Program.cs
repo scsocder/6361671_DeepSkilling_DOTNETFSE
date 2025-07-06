@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Lab2_DbContext.Data;
 using Lab2_DbContext.Models;
 using Microsoft.EntityFrameworkCore;
@@ -51,3 +52,17 @@ catch (Exception ex)
 {
     Console.WriteLine($"❌ Error: {ex.Message}");
 }
+=======
+﻿using System;
+using Lab1_ORM.Models;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("✅ ORM maps C# classes to database tables.");
+        Console.WriteLine("Category -> Categories Table");
+        Console.WriteLine("Product -> Products Table");
+    }
+}
+>>>>>>> 237a21da9881cd0bdcf609dff39dedce277563cc
