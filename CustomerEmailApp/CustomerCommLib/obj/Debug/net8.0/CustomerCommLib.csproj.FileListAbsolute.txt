@@ -1,0 +1,11 @@
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\bin\Debug\net8.0\CustomerCommLib.deps.json
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\bin\Debug\net8.0\CustomerCommLib.dll
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\bin\Debug\net8.0\CustomerCommLib.pdb
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\CustomerCommLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\CustomerCommLib.AssemblyInfoInputs.cache
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\CustomerCommLib.AssemblyInfo.cs
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\CustomerCommLib.csproj.CoreCompileInputs.cache
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\CustomerCommLib.dll
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\refint\CustomerCommLib.dll
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\CustomerCommLib.pdb
+C:\Users\Shubam\Desktop\week2_MOQ\CustomerEmailApp\CustomerCommLib\obj\Debug\net8.0\ref\CustomerCommLib.dll
