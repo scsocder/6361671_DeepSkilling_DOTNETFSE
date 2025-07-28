@@ -1,22 +1,11 @@
-// App.js
+// src/App.js
 import React from 'react';
-import CohortDetails from './CohortDetails';
+import Posts from './Posts';
 
 function App() {
   return (
-    <div>
-      <CohortDetails
-        name="React Bootcamp"
-        startDate="2025-07-01"
-        endDate="2025-08-01"
-        status="ongoing"
-      />
-      <CohortDetails
-        name="Node.js Training"
-        startDate="2025-06-01"
-        endDate="2025-07-01"
-        status="completed"
-      />
+    <div className="App">
+      <Posts />
     </div>
   );
 }
