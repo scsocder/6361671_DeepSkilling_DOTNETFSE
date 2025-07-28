@@ -1,16 +1,11 @@
 // src/App.js
 import React from 'react';
-import Home from './Components/Home';
-import About from './Components/About';
-import Contact from './Components/Contact';
+import CalculateScore from './Components/CalculateScore';
 
 function App() {
   return (
     <div className="App">
-      <h1>Student Management Portal</h1>
-      <Home />
-      <About />
-      <Contact />
+      <CalculateScore name="Shubam Chakraborty" school="KIIT University" total={450} goal={5} />
     </div>
   );
 }
