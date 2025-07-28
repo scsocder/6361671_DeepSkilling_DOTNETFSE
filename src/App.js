@@ -1,13 +1,11 @@
-// src/App.js
 import React from 'react';
-import CalculateScore from './Components/CalculateScore';
-
-function App() {
-  return (
-    <div className="App">
-      <CalculateScore name="Shubam Chakraborty" school="KIIT University" total={450} goal={5} />
+ function App(){
+  return(
+    <div>
+       <h1>Welcome the first session of react</h1>
     </div>
+   
+
   );
 }
-
 export default App;
