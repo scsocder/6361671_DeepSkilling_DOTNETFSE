@@ -1,36 +1,44 @@
 import React, { useState } from 'react';
 import './App.css';
-import GuestPage from './components/GuestPage';
-import UserPage from './components/UserPage';
-import FlightDetails from './components/FlightDetails';
+import BookDetails from './components/BookDetails';
+import BlogDetails from './components/BlogDetails';
+import CourseDetails from './components/CourseDetails';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [view, setView] = useState('none');
+  const [showCourses, setShowCourses] = useState(true); // for && rendering
 
-  // Element variable
-  let page;
-  if (isLoggedIn) {
-    page = <UserPage />;
-  } else {
-    page = <GuestPage />;
+  let element;
+
+  // Element variable example
+  if (view === 'books') {
+    element = <BookDetails />;
+  } else if (view === 'blogs') {
+    element = <BlogDetails />;
   }
 
   return (
     <div className="App" style={{ padding: '20px' }}>
-      <h1>🎫 Ticket Booking App</h1>
+      <h1>📘 Blogger App</h1>
 
-      {/* Login/Logout buttons */}
-      {isLoggedIn ? (
-        <button onClick={() => setIsLoggedIn(false)}>Logout</button>
-      ) : (
-        <button onClick={() => setIsLoggedIn(true)}>Login</button>
-      )}
+      {/* Buttons for switching views */}
+      <button onClick={() => setView('books')}>Show Books</button>
+      <button onClick={() => setView('blogs')}>Show Blogs</button>
+      <button onClick={() => setView('none')}>Clear View</button>
+      <button onClick={() => setShowCourses(!showCourses)}>
+        {showCourses ? 'Hide Courses' : 'Show Courses'}
+      </button>
 
-      {/* Conditionally render user/guest page */}
-      {page}
+      <hr />
 
-      {/* Flight details always visible */}
-      <FlightDetails />
+      {/* Conditional rendering via element variable */}
+      {element}
+
+      {/* Ternary operator rendering */}
+      {view === 'none' ? <p>No content selected.</p> : null}
+
+      {/* && operator rendering */}
+      {showCourses && <CourseDetails />}
     </div>
   );
 }
