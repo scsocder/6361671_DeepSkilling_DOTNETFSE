@@ -1,11 +1,16 @@
 import React from 'react';
- function App(){
-  return(
-    <div>
-       <h1>Welcome the first session of react</h1>
-    </div>
-   
+import ListofPlayers from './components/ListofPlayers';
+import IndianPlayers from './components/IndianPlayers';
 
+function App() {
+  const flag = true; // change to false to see other component
+
+  return (
+    <div className="App">
+      <h1>Cricket App</h1>
+      {flag ? <ListofPlayers /> : <IndianPlayers />}
+    </div>
   );
 }
+
 export default App;
